@@ -1,0 +1,31 @@
+.container{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    padding-left: 50px;
+    box-shadow: 8px 8px grey;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+button{
+    background-color: black;
+    color: white;
+}
+p{
+    color: wheat;
+    font-weight: bold;
+}
+button{
+    border-color: wheat;
+}
+
