@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Ppaer Scissors</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <!-- steps
@@ -34,7 +34,7 @@ when we click a button:  -->
         let result = '';
         
         if (computerMove === 'rock'){
-            result = 'Tie.';
+            result = 'You Tie.';
         }else if (computerMove === 'paper'){
             result = 'You lose.';
         }else if (computerMove === 'scissors'){
@@ -42,7 +42,7 @@ when we click a button:  -->
         }
 
         // display the result in a popup
-        alert(`You picked rock. Computer picked ${computerMove}. ${result}`);
+        alert(`You picked rock. Computer picked ${computerMove}. ${ result}`);
     ">Rock</button>
 
     <button onclick="
@@ -66,13 +66,13 @@ when we click a button:  -->
         if (computerMove === 'rock'){
             result = 'You win.';
         }else if (computerMove === 'paper'){
-            result = 'Tie.';
+            result = 'You Tie.';
         }else if (computerMove === 'scissors'){
             result = 'You lose.';
         }
 
         // display the result in a popup
-        alert(`You picked paper. Computer picked ${computerMove}. ${result}`);
+        alert(`You picked paper. Computer picked ${computerMove}. ${ result}`);
     ">Paper</button>
     
     <button onclick="
@@ -99,11 +99,11 @@ when we click a button:  -->
         }else if (computerMove === 'paper'){
             result = 'You win.';
         }else if (computerMove === 'scissors'){
-            result = 'Tie.';
+            result = 'You Tie.';
         }
 
         // display the result in a popup
-        alert(`You picked scissor. Computer picked ${computerMove}. ${result}`);
+        alert(`You picked scissor. Computer picked ${computerMove}. ${ result}`);
     ">Scissors</button>
     </div>
 </body>
